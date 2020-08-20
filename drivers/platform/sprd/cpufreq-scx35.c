@@ -295,17 +295,13 @@ static struct cpufreq_table_data sc9630_cpufreq_table_data = {
 
 static struct cpufreq_table_data sc7720_bin1_cpufreq_table_data = {
 	.freq_tbl = {
-		{0, 1400000},
-		{1, 1300000},
-		{2, 1200000},
-		{3, 1000000},
-		{4, 768000},
-		{5, 500000},
-		{6, CPUFREQ_TABLE_END},
+		{0, 1200000},
+		{1, 1000000},
+		{2, 768000},
+		{3, 500000},
+		{4, CPUFREQ_TABLE_END},
 	},
 	.vddarm_mv = {
-		1150000,
-		1150000,
 		1100000,
 		1100000,
 		1100000,
@@ -315,17 +311,13 @@ static struct cpufreq_table_data sc7720_bin1_cpufreq_table_data = {
 };
 static struct cpufreq_table_data sc7720_bin2_cpufreq_table_data = {
 	.freq_tbl = {
-		{0, 1400000},
-		{1, 1300000},
-		{2, 1200000},
-		{3, 1000000},
-		{4, 768000},
-		{5, 500000},
-		{6, CPUFREQ_TABLE_END},
+		{0, 1200000},
+		{1, 1000000},
+		{2, 768000},
+		{3, 500000},
+		{4, CPUFREQ_TABLE_END},
 	},
 	.vddarm_mv = {
-		1200000,
-		1200000,
 		1150000,
 		1100000,
 		1100000,
@@ -335,17 +327,13 @@ static struct cpufreq_table_data sc7720_bin2_cpufreq_table_data = {
 };
 static struct cpufreq_table_data sc7720_bin3_cpufreq_table_data = {
 	.freq_tbl = {
-		{0, 1400000},
-		{1, 1300000},
-		{2, 1200000},
-		{3, 1000000},
-		{4, 768000},
-		{5, 500000},
-		{6, CPUFREQ_TABLE_END},
+		{0, 1200000},
+		{1, 1000000},
+		{2, 768000},
+		{3, 500000},
+		{4, CPUFREQ_TABLE_END},
 	},
 	.vddarm_mv = {
-		1250000,
-		1250000,
 		1200000,
 		1100000,
 		1100000,
@@ -356,17 +344,13 @@ static struct cpufreq_table_data sc7720_bin3_cpufreq_table_data = {
 
 static struct cpufreq_table_data sc7720_binx_cpufreq_table_data = {
 	.freq_tbl = {
-		{0, 1400000},
-		{1, 1300000},
-		{2, 1200000},
-		{3, 1000000},
-		{4, 768000},
-		{5, 500000},
-		{6, CPUFREQ_TABLE_END},
+		{0, 1200000},
+		{1, 1000000},
+		{2, 768000},
+		{3, 500000},
+		{4, CPUFREQ_TABLE_END},
 	},
 	.vddarm_mv = {
-		1250000,
-		1250000,
 		1200000,
 		1100000,
 		1100000,
